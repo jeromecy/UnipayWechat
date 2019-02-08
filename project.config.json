@@ -11,6 +11,7 @@
 	"appid": "wxf78ec8440d26e571",
 	"projectname": "unionWechat",
 	"libVersion": "2.2.5",
+	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,

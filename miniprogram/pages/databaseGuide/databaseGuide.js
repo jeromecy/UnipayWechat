@@ -67,6 +67,12 @@ Page({
     //     console.error('[数据库] [查询记录] 失败：', err)
     //   }
     // })
+    
+    const db = wx.cloud.database(ratedata)
+    db.collection('Rate').where(
+      Date = '07-01-19'
+    )
+
   },
 
   onCounterInc: function() {
